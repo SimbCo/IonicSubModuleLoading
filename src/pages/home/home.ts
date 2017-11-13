@@ -11,4 +11,7 @@ export class HomePage {
 
   }
 
+  loadPage() {
+    this.navCtrl.setRoot('PageAPage');
+  }
 }
