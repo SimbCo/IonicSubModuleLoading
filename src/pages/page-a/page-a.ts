@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { PageBPage } from '../page-b/page-b';
 
 /**
  * Generated class for the PageAPage page.
@@ -20,6 +21,9 @@ export class PageAPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PageAPage');
+  }
+  loadPageB() {
+    this.navCtrl.push(PageBPage);
   }
 
 }
